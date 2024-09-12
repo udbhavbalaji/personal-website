@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.class-styles {
+  @apply text-ClassLightText dark:text-ClassDarkText bg-ClassLightBg dark:bg-ClassDarkBg;
+}
+
+.assignment-styles {
+  @apply text-AssignmentLightText dark:text-AssignmentDarkText bg-AssignmentLightBg dark:bg-AssignmentDarkBg;
+}
+
+.project-styles {
+  @apply text-ProjectLightText dark:text-ProjectDarkText bg-ProjectLightBg dark:bg-ProjectDarkBg;
+}
