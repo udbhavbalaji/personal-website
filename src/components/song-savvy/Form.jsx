@@ -29,7 +29,7 @@ export default function Form({ className }) {
     try {
       console.log("Im coming till here");
       const response = await fetch(
-        `http://127.0.0.1:5000/api/v1/predict/${songId}`
+        `http://127.0.0.1:5000/api/songsavvy/v1/predict/${songId}`
       );
       console.log("just not till here");
 
