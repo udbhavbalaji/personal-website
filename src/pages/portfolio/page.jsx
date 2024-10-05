@@ -5,6 +5,7 @@ import Journey from "@components/portfolio/Journey";
 import Portfolio from "@components/portfolio/Portfolio";
 import Contact from "@components/portfolio/Contact";
 import FooterNote from "@components/ui/FooterNote";
+import CurrentProject from "@components/portfolio/CurrentProject";
 
 function PortfolioApp({ theme, setTheme }) {
   useEffect(() => {
@@ -31,6 +32,8 @@ function PortfolioApp({ theme, setTheme }) {
     <div className='bg-stone-100 dark:bg-gray-900 text-stone-900 dark:text-stone-100 w-full px-4 py-2 font-portfolioFont'>
       <Navbar themeSwitcher={handleThemeSwitch} theme={theme} />
       <Intro />
+      <CurrentProject />
+      <hr className='h-px my-16 w-9/12 bg-gray-600 border-0 mx-auto' />
       <Journey />
       <hr
         id='projects'
