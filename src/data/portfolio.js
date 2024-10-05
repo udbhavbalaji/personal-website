@@ -158,3 +158,16 @@ export const contactItems = [
     type: "email",
   },
 ];
+
+export const currentProject = {
+  title: "Formula 1 Dashboard with TypeScript & React",
+  imgUrl: "/assets/images/TrackRev.png",
+  stack: ["React", "TypeScript", "Node.js", "Express.js", "Axios"],
+  newSkills: ["React", "TypeScript", "Express"],
+  description: [
+    "Building Formula 1 dashboard to view details about the current F1 season.",
+    "Built REST API endpoints with Typescript to serve data to the front-end.",
+    "Future Features: I want to allow users to see real-time updated data with the Open F1 API.",
+  ],
+  link: "https://github.com/udbhavbalaji/f1-dash/tree/project-init",
+};
