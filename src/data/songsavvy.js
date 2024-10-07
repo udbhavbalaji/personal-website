@@ -78,7 +78,7 @@ export const navbarItems = [
   },
   {
     title: "GitHub Repo",
-    link: "https://github.com/udbhavbalaji/udbhavbalaji",
+    link: "https://github.com/udbhavbalaji/personal-website/tree/main/src/pages/song-savvy",
     linkType: "link",
   },
 ];
