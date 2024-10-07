@@ -17,7 +17,7 @@ function App() {
     <div>
       <Router>
         <Routes>
-          <Route path='/' element={<HomeApp />} />
+          <Route path='/' element={<Navigate to={"/portfolio"} />} />
           <Route
             path='/portfolio/*'
             element={<PortfolioApp theme={theme} setTheme={setTheme} />}

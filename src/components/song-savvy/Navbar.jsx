@@ -5,14 +5,12 @@ export default function Navbar() {
   return (
     <div className='py-8 z-20 top-0 left-0 bg-inherit'>
       <div className='container flex flex-wrap items-center justify-between mx-auto'>
-        {/* Space for the Initials */}
         <div className='flex items-center h-6 sm:h-9 mr-3 self-center text-2xl font-semibold font-portfolioFont'>
           <Link to='/' className='hover:text-white'>
             UB
           </Link>
           .
         </div>
-        {/* End of space for the initials */}
         <div>
           <h1 className='text-5xl font-bold'>
             <Link to='/songsavvy' className='hover:text-white'>

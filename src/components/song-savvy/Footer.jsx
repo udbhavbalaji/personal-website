@@ -22,7 +22,6 @@ export default function Footer() {
                     ) : (
                       <a href={obj.link}>{obj.title}</a>
                     )}
-                    {/* <a href={obj.link}>{obj.title}</a> */}
                   </li>
                 ))}
               </ul>
